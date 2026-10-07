@@ -1,0 +1,26 @@
+# Ignore compiled elisp files
+.emacs.desktop
+.lsp-session-v*
+history
+places
+projectile-bookmarks.eld
+recentf
+tramp
+projects
+projectile-frecency.eld
+*.elc
+.dap-breakpoints
+
+# Ignore packages directories
+elpa/
+straight/
+eln-cache/
+transient/
+.cache/
+workspace/
+tree-sitter/
+eclipse.jdt.ls/
+
+# Ignore backups and autosaves
+*~
+\#*\#
