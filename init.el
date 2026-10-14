@@ -23,6 +23,7 @@
 (require 'init-markdown)
 (require 'init-olivetti)
 (require 'init-ai)
+(require 'init-org)
 (require 'init-keybindings)
 
 (setq custom-file
