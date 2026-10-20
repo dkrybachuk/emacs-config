@@ -32,7 +32,8 @@
       '((python-mode . python-ts-mode)
         (java-mode . java-ts-mode)
         (bash-mode . bash-ts-mode)
-        (json-mode . json-ts-mode)))
+        (json-mode . json-ts-mode)
+        (yaml-mode . yaml-ts-mode)))
 
 ;; Flycheck
 (use-package flycheck
@@ -44,7 +45,8 @@
   :commands lsp lsp-deferred
   :hook
   ((java-ts-mode . lsp-deferred)
-   (python-ts-mode . lsp-deferred))
+   (python-ts-mode . lsp-deferred)
+   (yaml-ts-mode . lsp-deferred))
   :custom
   ;; Better performance
   (lsp-idle-delay 0.75)

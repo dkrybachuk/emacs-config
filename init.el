@@ -18,6 +18,7 @@
 (require 'init-java)
 (require 'init-python)
 (require 'init-clojure)
+(require 'init-yaml)
 (require 'init-debug)
 (require 'init-dired)
 (require 'init-markdown)
